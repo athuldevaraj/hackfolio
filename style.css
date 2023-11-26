@@ -11,6 +11,9 @@
     width: 100%;
     height: 10vh;
 }
+.hb button{
+    background-image:url(hamburger.png);
+}
 .navborder
 {
     margin-top: 10vh;
@@ -92,14 +95,16 @@ li{
 .content5{
     color:#FFF;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 62px;
 }
 #do{
     color:#11D3C1;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     font-family: 'Montserrat', sans-serif;
     font-size: 62px;
 }
@@ -114,10 +119,15 @@ li{
     background-image:url(line.jpg)
 } */
 
-.border{
+.content5 .border{
     margin-top: 30px;
-    width: 15%;
-    margin-left: 625px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    width:40%;
+
+    /* margin-left: 625px; */
     padding: 2px;
     background-color: #11D3C1;
 }
@@ -193,8 +203,8 @@ li{
 }
 .alen img
 {
-    margin-left: 100px;
-    margin-top: 50px;
+    /* margin-left: 100px; */
+    /* margin-top: 50px; */
     margin-bottom: 120px;
     width: 250px;
     height: 350px;
@@ -276,12 +286,13 @@ button:hover
     }
     .boxes
     {
-        padding-top: 110px;
+        padding-top: 30px;
+        padding-bottom: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* height:500px; */
+        height:900px;
         gap: 2px;
     }
     .box
@@ -289,8 +300,8 @@ button:hover
         color: #FFF;
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         border:1px solid #11D3C1;
         padding: 10px;
         margin: 10px;
@@ -301,7 +312,70 @@ button:hover
         background-image: linear-gradient(#515050, #000);
     }
 
-    .item{
-        /* margin-top: ; */
+    /* .athul{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
     }
+    .alen{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .shuaib{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    } */
+    .photos
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .athul img
+    {
+        padding-left: 20px;
+        /* margin-top: 120px; */
+        width: 200px;
+        height: 250px;
+    }
+    .shuaib img
+    {
+        padding-right: 20px;
+        /* margin-left: 1100px;
+        margin-top: 30px; */
+        width: 200px;
+        height: 250px;
+    }
+    .alen img
+    {
+        padding-left: 20px;
+        margin-left: 0%;
+        width: 200px;
+        height: 250px;
+    }
+    .text{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        font-size:medium;
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        row-gap: 10px;
+        flex-direction: column;
+    }
+    button
+    {
+        width: 80px;
+        height: 40px;
+        border-radius: 35%;
+        background-color: #11D3C1;
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        font-size:10px;
+    }
+    /* .item{
+        margin-top: ;
+    } */
 }
